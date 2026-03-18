@@ -117,7 +117,7 @@ function gtag_report_conversion(url) {
   gtag("event", "conversion", {
     send_to: "AW-18023220577/UuZjCKX76IocEOGKkpJD",
     value: 0.1,
-    currency: "AED",
+    'currency': 'USD',
     event_callback: callback,
   });
   return false;
